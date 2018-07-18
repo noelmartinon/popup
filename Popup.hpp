@@ -949,7 +949,7 @@ HWND CPopup::CreateChildWindow( HWND hwnd, int x, int y, int cx, int cy, WNDPROC
                                 x, y, cx, cy,
                                 hwnd,0,hInstance,0);
     
-    UnregisterClass(ClassName,hInstance);
+    //UnregisterClass(ClassName,hInstance); // Commented to avoid memory leak
 
     return hwnd_ret;
 }

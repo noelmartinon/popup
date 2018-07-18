@@ -1,7 +1,7 @@
 # Popup
 Windows 32bits tools to display a customizable popup window (title, text, icon, background, duration)
 
-Version 1.0.0
+Version 1.0.1
 
 ![screenshot](./screenshot/popup_1.png)
 ![screenshot](./screenshot/popup_2.png)
